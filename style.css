@@ -1,0 +1,248 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+li {
+	display: inline-block;
+  margin: 10px;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: proxima-nova;
+
+
+}
+
+nav {
+	float:right;
+	padding:5px;
+	margin-top: 10px;
+}
+
+.contact {
+
+	border: 2px solid white;
+	}
+
+
+a:link {
+
+  text-decoration: none;
+	color:white;
+}
+
+a.contact:hover {
+  border: 10px;
+
+}
+
+a:visited {
+
+	color: white;
+}
+
+
+
+.second-section {
+	height: 600px;
+	width:auto;
+	margin:0;
+	position: relative;
+	background-color: #EDEEEF;
+	margin-top:495px;
+
+}
+
+.second-paragraph {
+
+
+	text-align: center;
+	padding-top: 8%;
+	font-size: 35px;
+	font-weight: 400;
+	color: rgba(26,26,26,.6);
+
+}
+
+.third-paragraph {
+
+	text-align: center;
+	padding-top: 50px;
+	font-size: 20px;
+	color: rgba(26,26,26,.6);
+}
+
+
+
+.third-section {
+	height: 500px;
+	width:auto;
+	margin:0;
+	position: relative;
+	background-color: white;
+
+
+}
+
+
+.first-section {
+
+		background-image: url("images/background3.png");
+		background-size:cover;
+		background-repeat: no-repeat;
+		height: 640px;
+
+	}
+
+body {
+
+
+		margin:0;
+   	padding:0;
+   	height:100%;
+
+  }
+	.logo2 {
+		padding-top: 1%;
+		margin-left: 2%;
+	}
+
+	.linkedin {
+
+		position: absolute;
+		padding-top: 7%;
+		padding-left: 25%;
+	}
+
+	.first-paragraph {
+
+		color:white;
+		width: 400px;
+		position: absolute;
+		padding-top: 7%;
+		padding-left: 42%;
+		font-family: serif;
+		line-height: 1.5;
+		letter-spacing: 1px;
+	}
+
+
+	.footer {
+   	height:45%;
+	  cursor: pointer;
+		background-color: #26262A;
+
+}
+h2 {
+	margin-left: 42%;
+	text-transform: uppercase;
+	font-size: 40px;
+	margin-top: 8%;
+	border: 2px solid rgba(26,26,26,.6);
+	width: 210px;
+	text-align: center;
+	color: rgba(26,26,26,.6)
+}
+
+.fourth-paragraph {
+	text-align: left;
+	float: right;
+	line-height: 1.5;
+	color: white;
+	padding-top: 15%;
+	letter-spacing: 1px;
+	font-family: serif;
+
+}
+a.email {
+
+	text-decoration: underline;
+
+}
+
+.nav-footer {
+position: absolute;
+padding-top:5%;
+padding-left: 35%;
+margin-right: 40px;
+text-align: center;
+
+
+}
+
+.image-footer {
+	position: absolute;
+	padding-left: 42%;
+	margin-right: 40px;
+	padding-top: 20px;
+}
+
+.mywork1 {
+	top:45px;
+	position: absolute;
+	padding-left: 16%;
+
+
+}
+p.myworkp {
+	width: 400px;
+	padding-left: 16%;
+	color: rgba(26,26,26,.6)
+}
+
+.beard {
+
+	position:absolute;
+	padding-left: 60%;
+	padding-top: 25px;
+}
+
+p.beardp {
+
+	postion: absolute;
+	width: 400px;
+	padding-left: 60%;
+	padding-top: 17%;
+	color: rgba(26,26,26,.6)
+}
+
+.clearfix {
+  overflow: auto;
+}
