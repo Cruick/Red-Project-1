@@ -38,17 +38,17 @@ q:before, q:after {
 	content: none;
 }
 
+
 @font-face {
-    font-family: '2dumbregular';
-    src: url('2Dumb-webfont.eot');
-    src: url('2Dumb-webfont.eot?#iefix') format('embedded-opentype'),
-         url('2Dumb-webfont.woff') format('woff'),
-         url('2Dumb-webfont.ttf') format('truetype'),
-         url('2Dumb-webfont.svg#2dumbregular') format('svg');
+    font-family: 'korolev_condensedbold';
+    src: url('korolev_bold_condensed-webfont.woff2') format('woff2'),
+         url('korolev_bold_condensed-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
+
+
 li {
 	display: inline-block;
   margin: 10px;
@@ -56,7 +56,7 @@ li {
   color: white;
   cursor: pointer;
   font-size: 20px;
-  font-family: proxima-nova;
+  font-family:'korolev_condensedbold', sans-serif;
 
 
 }
@@ -64,7 +64,7 @@ li {
 nav {
 	float:right;
 	padding:5px;
-	margin-top: 10px;
+	margin-top: 2px;
 }
 
 .contact {
@@ -90,6 +90,26 @@ a:visited {
 
 	color: white;
 }
+
+.first-section {
+
+		background-image: url("images/background3.png");
+		background-size:cover;
+		background-repeat: no-repeat;
+		height: 640px;
+
+	}
+	.first-paragraph {
+
+		color:white;
+		width: 400px;
+		position: absolute;
+		padding-top: 7%;
+		padding-left: 42%;
+		font-family: sans-serif;
+		line-height: 1.5;
+		letter-spacing: 1px;
+	}
 
 
 
@@ -133,16 +153,16 @@ a:visited {
 
 
 }
+.fourth-paragraph {
+	text-align: left;
+	float: right;
+	line-height: 1.5;
+	color: white;
+	padding-top: 15%;
+	letter-spacing: 1px;
+	font-family:serif;
 
-
-.first-section {
-
-		background-image: url("images/background3.png");
-		background-size:cover;
-		background-repeat: no-repeat;
-		height: 640px;
-
-	}
+}
 
 body {
 
@@ -150,6 +170,7 @@ body {
 		margin:0;
    	padding:0;
    	height:100%;
+		font-family: sans-serif;
 
   }
 	.logo2 {
@@ -164,18 +185,7 @@ body {
 		padding-top: 7%;
 		padding-left: 25%;
 		padding-right: 10px;
-	}
 
-	.first-paragraph {
-
-		color:white;
-		width: 400px;
-		position: absolute;
-		padding-top: 7%;
-		padding-left: 42%;
-		font-family: '2dumbregular', sans-serif;
-		line-height: 1.5;
-		letter-spacing: 1px;
 	}
 
 
@@ -194,18 +204,10 @@ h2 {
 	width: 210px;
 	text-align: center;
 	color: rgba(26,26,26,.6)
-}
-
-.fourth-paragraph {
-	text-align: left;
-	float: right;
-	line-height: 1.5;
-	color: white;
-	padding-top: 15%;
-	letter-spacing: 1px;
-	font-family: serif;
 
 }
+
+
 a.email {
 
 	text-decoration: underline;
@@ -239,6 +241,7 @@ text-align: center;
 p.myworkp {
 	width: 400px;
 	padding-left: 16%;
+	padding-top: 17%;
 	color: rgba(26,26,26,.6)
 }
 
@@ -251,7 +254,7 @@ p.myworkp {
 
 p.beardp {
 
-	postion: absolute;
+	position: absolute;
 	width: 400px;
 	padding-left: 60%;
 	padding-top: 17%;
@@ -262,12 +265,10 @@ p.beardp {
   overflow: auto;
 }
 
+
+
 @media screen and (min-width: 600px) {
 
-
-body {
-
-	}
 
 
 }
