@@ -38,6 +38,17 @@ q:before, q:after {
 	content: none;
 }
 
+@font-face {
+    font-family: '2dumbregular';
+    src: url('2Dumb-webfont.eot');
+    src: url('2Dumb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('2Dumb-webfont.woff') format('woff'),
+         url('2Dumb-webfont.ttf') format('truetype'),
+         url('2Dumb-webfont.svg#2dumbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 li {
 	display: inline-block;
   margin: 10px;
@@ -59,6 +70,7 @@ nav {
 .contact {
 
 	border: 2px solid white;
+	transition: 0.2s ease 0.3s;
 	}
 
 
@@ -70,6 +82,7 @@ a:link {
 
 a.contact:hover {
   border: 10px;
+
 
 }
 
@@ -160,7 +173,7 @@ body {
 		position: absolute;
 		padding-top: 7%;
 		padding-left: 42%;
-		font-family: serif;
+		font-family: '2dumbregular', sans-serif;
 		line-height: 1.5;
 		letter-spacing: 1px;
 	}
@@ -247,4 +260,22 @@ p.beardp {
 
 .clearfix {
   overflow: auto;
+}
+
+@media screen and (min-width: 600px) {
+
+
+body {
+
+	}
+
+
+}
+
+
+
+
+@media screen and (min-width: 1240px) {
+
+
 }
