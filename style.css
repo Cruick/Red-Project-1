@@ -261,6 +261,14 @@ p.beardp {
 	color: rgba(26,26,26,.6)
 }
 
+.social-buttons {
+
+position: absolute;
+padding-left: 42%;
+padding-top: 7%;
+
+}
+
 .clearfix {
   overflow: auto;
 }
